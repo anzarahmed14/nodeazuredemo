@@ -4,7 +4,7 @@ name: Build and Deploy Node App to Azure
 on:
   push:
     branches:
-      - master   # Runs when code pushed to main branch
+      - main   # Runs when code pushed to main branch
 
 jobs:
   build-and-deploy:
